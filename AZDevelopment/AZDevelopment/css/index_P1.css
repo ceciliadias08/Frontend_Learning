@@ -1,0 +1,155 @@
+body { /*general settings*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+h1 { /*general settings*/
+    font-size: 30px;
+}
+
+h2 { /*general settings*/
+    font-size: 24px;
+}
+
+#logo-area { /*header settings*/
+    position: absolute;
+    top: 0;
+    left: 10;
+}
+
+#menu-area { /*header settings*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 150px;
+    margin-top: 50px;
+    font-weight: bold;
+
+}
+
+hr{ /*general settings, line under header*/
+    border-top-color: black;
+    margin-top: 110px;
+}
+
+.banner { /*banner image*/
+    padding-top: 200px;
+    padding-bottom: 100px;
+    text-align: center;
+    border-top-width: 4px black ;
+}
+
+a { /*link settings*/
+    color: black;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+.image-container { /*projects images div*/
+    display: flex;
+}
+
+.image-container2 { /*projects images div*/
+    display: flex;
+    margin-top: 50px;
+}
+
+.Projects{ /*projects main*/
+    margin-top: 100px;
+}
+
+.image-box { /*projects images*/
+    margin-right: 100px;
+    /*max-width: 25%;*/
+    justify-content: space-between;
+}
+
+.last-image-box { /*projects images*/
+    margin-right: 0px; 
+}
+
+/*img { /*projects images size
+    max-height: 500px;
+} */
+
+.image-text { /*projects text under images*/
+    text-align: justify;
+}
+
+
+.About { /*about section*/
+    font-size: 24px;
+    text-align: justify;
+}
+
+.container{ /*meet the team container*/
+    display: flex;
+}
+
+
+.text{
+    /*display: flex ;*/
+    width: 25%;
+}
+
+.left{ /*meet the team image settings*/
+    margin-right: 15px;
+    margin-bottom: 100px;    
+    text-align: justify;
+    font-size: 18px;
+}
+
+.right{ /*meet the team image settings*/
+    margin-left: 15px;
+    margin-bottom: 100px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.heading{ /*meet the team heading setting*/
+    margin-left: 15px;
+}
+
+form { /*contact us area*/
+    background: #3660d2;
+    border-radius: 10px;
+    height: 200px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+label{ /*contact us letters*/
+    color: white;
+    font-size: 18px;
+}
+
+input{ /*contact us answer space*/
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 60%;
+    height: 22px;
+}
+
+#button{ /*submit message button*/
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.lines{ /*space between the lines*/
+    margin-top: 10px;
+}
+
+#Message{ /*message space answer*/
+    height: 50px;
+}
+
+footer { /*footer*/
+    background: #777d8e;
+    text-align: center;
+    color: white;
+    padding: 100px;
+    margin-top: 50px;
+}

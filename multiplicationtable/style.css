@@ -1,0 +1,25 @@
+body {
+  /*Style page*/
+  background: rgb(80, 107, 132);
+  font: normal 15pt arial; /*Font styling*/
+}
+
+header {
+  color: rgb(210, 173, 173); /*Text color*/
+  text-align: center;
+}
+
+section {
+  background: rgb(210, 173, 173); /*Box background color*/
+  border-radius: 10px; /*Rounded corners*/
+  padding: 15px; /*Padding inside the section*/
+  width: 500px; /*Box width*/
+  margin: auto; /*Center align box*/
+  box-shadow: 3px 10px rgba(0, 0, 0, 363);
+}
+
+footer {
+  color: rgb(210, 173, 173); /*Text color*/
+  text-align: center;
+  font-style: italic;
+}

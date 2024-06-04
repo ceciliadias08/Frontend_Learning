@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Page title-->
+    <title>Multiplication Table</title>
+    <!--CSS file link-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <!--Page header-->
+      <h1>Multiplication Table</h1>
+    </header>
+    <section>
+      <div>
+        <!--Input field for number and button to generate table-->
+        <p>
+          Number: <input type="number" name="num" id="txtn" /><input
+            type="button"
+            value="Generate Multiplication Table"
+            onclick="multiplicationtable()"
+          />
+        </p>
+      </div>
+      <div>
+        <!--Field to display the multiplication table-->
+        <select name="multiplicationtable" id="seltab" size="10">
+          <option>Enter a number in the box above</option>
+        </select>
+      </div>
+    </section>
+    <footer>
+      <p>&copy;</p>
+    </footer>
+    <!--JavaScript file link-->
+    <script src="script.js"></script>
+  </body>
+</html>
